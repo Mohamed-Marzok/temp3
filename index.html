@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zoka</title>
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/fram.css">
+    <link rel="stylesheet" href="CSS/master.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="page">
+        <div class="sidebar">
+            <h2>Zoka</h2>
+            <ul>
+                <li>
+                    <a>
+                        <i class="fa-regular fa-chart-bar fa-fw"></i>
+                        <p>Dashboard</p>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                        <p>Settings</p>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <i class="fa-regular fa-user fa-fw"></i>
+                        <p>Profile</p>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <i class="fa-solid fa-diagram-project fa-fw"></i>
+                        <p>Projects</p>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                        <p>Courses</p>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <i class="fa-regular fa-circle-user fa-fw"></i>
+                        <p>Friends</p>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <i class="fa-regular fa-file fa-fw"></i>
+                        <p>Files</p>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <i class="fa-regular fa-credit-card fa-fw"></i>
+                        <p>Plans</p>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="content">
+            <!-- start head -->
+            <div class="header">
+                <div class="search">
+                    <input type="text" placeholder="Type A keyword">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="right">
+                    <i class="fa-regular fa-bell fa-lg"></i>
+                    <img src="IMGS/header/avatar.png">
+                </div>
+            </div>
+            <!-- end head -->
+            <!-- start title -->
+            <h1 class="title">Dashboard</h1>
+            <!-- end title -->
+            <!-- start grid -->
+            <div class="grid">
+                <!--start welcome-->
+                <div class="welcome grid-card">
+                    <div class="head">
+                        <div class="text">
+                            <h2>Welcome</h2>
+                            <p>Zoka</p>
+                        </div>
+                        <img class="main-img" src="IMGS/content/welcome.png">
+                        <img class="sec-img" src="IMGS/header/avatar.png">
+                    </div>
+                    <div class="main">
+                        <div class="name">
+                            <h3>Mohamed Marzok</h3>
+                            <p>Developer</p>
+                        </div>
+                        <div class="projects">
+                            <h3>80</h3>
+                            <p>Projects</p>
+                        </div>
+                        <div class="earn">
+                            <h3>$8500</h3>
+                            <p>Earned</p>
+                        </div>
+                    </div>
+                    <input type="button" value="Profile">
+                </div>
+                <!--end welcome-->
+                <!--start draft-->
+                <div class="draft grid-card">
+                    <h2>Quick Draft</h2>
+                    <p>Write A Draft For Your Ideas</p>
+                    <input type="text" placeholder="Title">
+                    <textarea placeholder="Your Thought"></textarea>
+                    <a href="#">Save</a>
+                </div>
+                <!--end draft-->
+                <!--start targets-->
+                <div class="yearly-targets grid-card">
+                    <h2 class="target-heading">Yearly Targets</h2>
+                    <p class="target-description">Targets Of The Year</p>
+                    <div class="target-line">
+                        <i class="target-icon fa-solid fa-dollar-sign "></i>
+                        <div class="target-content">
+                            <p class="target-name">Money</p>
+                            <h3 class="target-goal">$20,000</h3>
+                            <div class="target-progress"></div>
+                        </div>
+                    </div>
+                    <div class="target-line">
+                        <i class="target-icon fa-solid fa-code "></i>
+                        <div class="target-content">
+                            <p class="target-name">Projects</p>
+                            <h3 class="target-goal">24</h3>
+                            <div class="target-progress"></div>
+                        </div>
+                    </div>
+                    <div class="target-line">
+                        <i class="target-icon fa-solid fa-user"></i>
+                        <div class="target-content">
+                            <p class="target-name">Team</p>
+                            <h3 class="target-goal">12</h3>
+                            <div class="target-progress"></div>
+                        </div>
+                    </div>
+                </div>
+                <!--end targets-->
+                <!--start tickets-->
+                <div class="ticket-statistics grid-card">
+                    <h2 class="ticket-heading">Tickets Statistics</h2>
+                    <div class="ticket-description">Everything About Support Tickets</div>
+                    <div class="ticket-content">
+                        <div class="ticket-category">
+                            <i class="ticket-icon fa-regular fa-rectangle-list"></i>
+                            <h2 class="ticket-value">2500</h2>
+                            <p class="ticket-label">Total</p>
+                        </div>
+                        <div class="ticket-category">
+                            <i class="ticket-icon fa-solid fa-spinner"></i>
+                            <h2 class="ticket-value">500</h2>
+                            <p class="ticket-label">Pending</p>
+                        </div>
+                        <div class="ticket-category">
+                            <i class="ticket-icon fa-regular fa-circle-check"></i>
+                            <h2 class="ticket-value">1000</h2>
+                            <p class="ticket-label">Closed</p>
+                        </div>
+                        <div class="ticket-category">
+                            <i class="ticket-icon fa-regular fa-rectangle-xmark"></i>
+                            <h2 class="ticket-value">100</h2>
+                            <p class="ticket-label">Deleted</p>
+                        </div>
+                    </div>
+                </div>
+                <!--end tickets-->
+                <!--start news-->
+                <div class="latest-news grid-card">
+                    <h2 class="news-heading">Latest News</h2>
+                    <div class="news-item">
+                        <img class="news-image" src="IMGS/content/news/news-01.png">
+                        <div class="news-details">
+                            <div class="news-title">Created SASS Section</div>
+                            <p class="news-description">New SASS Examples & Tutorials</p>
+                        </div>
+                        <div class="news-time">3 Days Ago</div>
+                    </div>
+                    <div class="news-item">
+                        <img class="news-image" src="IMGS/content/news/news-02.png">
+                        <div class="news-details">
+                            <div class="news-title">Changed The Design</div>
+                            <p class="news-description">A Brand New Website Design</p>
+                        </div>
+                        <div class="news-time">5 Days Ago</div>
+                    </div>
+                    <div class="news-item">
+                        <img class="news-image" src="IMGS/content/news/news-03.png">
+                        <div class="news-details">
+                            <div class="news-title">Team Increased</div>
+                            <p class="news-description">3 Developers Joined The Team</p>
+                        </div>
+                        <div class="news-time">7 Days Ago</div>
+                    </div>
+                    <div class="news-item">
+                        <img class="news-image" src="IMGS/content/news/news-04.png">
+                        <div class="news-details">
+                            <div class="news-title">Added Payment Gateway</div>
+                            <p class="news-description">Many New Payment Gateways Added</p>
+                        </div>
+                        <div class="news-time">9 Days Ago</div>
+                    </div>
+                </div>
+                <!--end news-->
+                <!-- start tasks -->
+                <div class="task-list  grid-card">
+                    <h2 class="task-heading">Latest Tasks</h2>
+                    <div class="task-item">
+                        <div class="task-details">
+                            <div class="task-title">Record One New Video</div>
+                            <p class="task-description">Record Python Create Exe Project</p>
+
+                        </div>
+                        <i class="task-icon fas fa-trash-alt delete-icon"></i>
+                    </div>
+                    <div class="task-item">
+                        <div class="task-details">
+                            <div class="task-title">Write Article</div>
+                            <p class="task-description">Write Low Level vs High Level Languages</p>
+                        </div>
+                        <i class="task-icon fas fa-trash-alt delete-icon"></i>
+
+                    </div>
+                    <div class="task-item">
+                        <div class="task-details">
+                            <div class="task-title">Finish Project</div>
+                            <p class="task-description">Publish Academy Programming Project</p>
+                        </div>
+                        <i class="task-icon fas fa-trash-alt delete-icon"></i>
+
+                    </div>
+                    <div class="task-item">
+                        <div class="task-details">
+                            <div class="task-title">Attend The Meeting</div>
+                            <p class="task-description">Attend The Project Business Analysis Meeting</p>
+                        </div>
+                        <i class="task-icon fas fa-trash-alt delete-icon"></i>
+
+                    </div>
+                    <div class="task-item">
+                        <div class="task-details">
+                            <div class="task-title">Finish Lesson</div>
+                            <p class="task-description">Finish Teaching Flex Box</p>
+                        </div>
+                        <i class="task-icon fas fa-trash-alt delete-icon"></i>
+
+                    </div>
+                </div>
+                <!-- end tasks -->
+                <!--start top search-->
+                <div class="top-search grid-card">
+                    <div class="search-heading">Top Search Items</div>
+                    <div class="search-list">
+
+                        <div class="search-details">
+                            <p class="search-keyword-label">Keyword</p>
+                            <p class="search-count-label">Search Count</p>
+                        </div>
+
+                        <div class="search-item">
+                            <div class="search-details">
+                                <p class="search-keyword">Programming</p>
+                                <p class="search-count">220</p>
+                            </div>
+                        </div>
+                        <div class="search-item">
+                            <div class="search-details">
+                                <p class="search-keyword">JavaScript</p>
+                                <p class="search-count">180</p>
+                            </div>
+                        </div>
+                        <div class="search-item">
+                            <div class="search-details">
+                                <p class="search-keyword">PHP</p>
+                                <p class="search-count">160</p>
+                            </div>
+                        </div>
+                        <div class="search-item">
+                            <div class="search-details">
+                                <p class="search-keyword">Code</p>
+                                <p class="search-count">145</p>
+                            </div>
+                        </div>
+                        <div class="search-item">
+                            <div class="search-details">
+                                <p class="search-keyword">Design</p>
+                                <p class="search-count">110</p>
+                            </div>
+                        </div>
+                        <div class="search-item">
+                            <div class="search-details">
+                                <p class="search-keyword">Logic</p>
+                                <p class="search-count">95</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--end top search-->
+                <!-- start uploads -->
+                <div class="latest-uploads grid-card">
+                    <div class="uploads-heading">Latest Uploads</div>
+                    <div class="upload-item">
+                        <img class="upload-image" src="IMGS/content/uploads/pdf.svg">
+                        <div class="upload-details">
+                            <p class="upload-name">my-file.pdf</p>
+                            <p class="upload-uploader">Zoka</p>
+                        </div>
+                        <p class="upload-size">2.9mb</p>
+                    </div>
+                    <div class="upload-item">
+                        <img class="upload-image" src="IMGS/content/uploads/avi.svg">
+                        <div class="upload-details">
+                            <p class="upload-name">My-Video-File.avi</p>
+                            <p class="upload-uploader">Admin</p>
+                        </div>
+                        <p class="upload-size">4.9mb</p>
+                    </div>
+                    <div class="upload-item">
+                        <img class="upload-image" src="IMGS/content/uploads/psd.svg">
+                        <div class="upload-details">
+                            <p class="upload-name">My-Psd-File.pdf</p>
+                            <p class="upload-uploader">Mohamed</p>
+                        </div>
+                        <p class="upload-size">4.5mb</p>
+                    </div>
+                    <div class="upload-item">
+                        <img class="upload-image" src="IMGS/content/uploads/zip.svg">
+                        <div class="upload-details">
+                            <p class="upload-name">My-Zip-File.pdf</p>
+                            <p class="upload-uploader">User</p>
+                        </div>
+                        <p class="upload-size">8.9mb</p>
+                    </div>
+                    <div class="upload-item">
+                        <img class="upload-image" src="IMGS/content/uploads/dll.svg">
+                        <div class="upload-details">
+                            <p class="upload-name">My-DLL-File.pdf</p>
+                            <p class="upload-uploader">Admin</p>
+                        </div>
+                        <p class="upload-size">4.9mb</p>
+                    </div>
+                    <div class="upload-item">
+                        <img class="upload-image" src="IMGS/content/uploads/eps.svg">
+                        <div class="upload-details">
+                            <p class="upload-name">My-Eps-File.pdf </p>
+                            <p class="upload-uploader">Designer</p>
+                        </div>
+                        <p class="upload-size">8.9mb</p>
+                    </div>
+                </div>
+                <!-- end uploads -->
+                <!-- start project progress -->
+                <div class="project-progress grid-card">
+                    <div class="project-progress-heading">Last Project Progress</div>
+                    <ul class="project-progress-list">
+                        <li class="project-progress-item">Project Acquired</li>
+                        <li class="project-progress-item">Project Started</li>
+                        <li class="project-progress-item">Project Near Completion</li>
+                        <li class="project-progress-item">Project Testing</li>
+                        <li class="project-progress-item">Project Completed & Payment Received</li>
+                    </ul>
+                    <img class="project-progress-image" src="IMGS/content/project.png">
+                </div>
+                <!-- end project progress -->
+                <!-- start reminder -->
+                <div class="reminders grid-card">
+                    <div class="reminder-heading">Reminders</div>
+                    <div class="reminder-list">
+                        <div class="reminder-item">
+                            <div class="reminder-name">Check My Tasks List</div>
+                            <p class="reminder-time">28/05/2023 - 12:00am</p>
+                        </div>
+                        <div class="reminder-item">
+                            <div class="reminder-name">Check My Projects</div>
+                            <p class="reminder-time">26/06/2023 - 02:20pm</p>
+                        </div>
+                        <div class="reminder-item">
+                            <div class="reminder-name">Call All My Clients</div>
+                            <p class="reminder-time">05/07/2023 - 11:50am</p>
+                        </div>
+                        <div class="reminder-item">
+                            <div class="reminder-name">Finish The Development Workshop</div>
+                            <p class="reminder-time">28/08/2023 - 09:32am</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end reminder -->
+                <!--start latest post-->
+                <div class="latest-post grid-card">
+                    <div class="post-heading">Latest Post</div>
+                    <div class="post-data">
+                        <img class="post-user-image" src="IMGS/header/avatar.png">
+                        <div class="post-text">
+                            <div class="post-user-name">Mohamed Marzok</div>
+                            <div class="post-time">About 3 Hours Ago</div>
+                        </div>
+                    </div>
+                    <div class="post-content">
+                        You Can Fool All Of The People Some Of The Time, And Some Of The People
+                        All Of The Time, But You Can't Fool All Of The People All Of The Time.
+                    </div>
+                    <div class="post-footer">
+                        <div class="post-like">
+                            <i class="post-icon fas fa-heart"></i>
+                            <p class="post-like-count">1.8K</p>
+                        </div>
+                        <div class="post-comment">
+                            <i class="post-icon fas fa-comments"></i>
+                            <p class="post-comment-count">512</p>
+                        </div>
+                    </div>
+                </div>
+                <!--end latest post-->
+                <!-- start social media -->
+                <div class="social-media grid-card">
+                    <div class="media-heading">Social Media Stats</div>
+                    <div class="media-item">
+                        <i class="media-icon fa-brands fa-twitter "></i>
+                        <p class="media-datails">90K Followers</p>
+                        <a class="media-link" href="#">Follow</a>
+                    </div>
+                    <div class="media-item">
+                        <i class="media-icon fa-brands fa-facebook-f "></i>
+                        <p class="media-datails">2M Like </p>
+                        <a class="media-link" href="#">Like</a>
+                    </div>
+                    <div class="media-item">
+                        <i class="media-icon fa-brands fa-youtube "></i>
+                        <p class="media-datails">1M Subs</p>
+                        <a class="media-link" href="#">Subscribe</a>
+                    </div>
+                    <div class="media-item">
+                        <i class="media-icon fa-brands fa-linkedin"></i>
+                        <p class="media-datails">70K Followers</p>
+                        <a class="media-link" href="#">Follow</a>
+                    </div>
+                </div>
+                <!-- end social media -->
+            </div>
+            <!-- end grid -->
+            <!-- start table -->
+            <div class="projects p-20 bg-white rad-10 m-20">
+                <h2 class="mt-0 mb-20">Projects</h2>
+                <div class="responsive-table">
+                    <table class="fs-15 w-full">
+                        <thead>
+                            <tr>
+                                <td>Name</td>
+                                <td>Finish Date</td>
+                                <td>Client</td>
+                                <td>Price</td>
+                                <td>Team</td>
+                                <td>Status</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Ministry Wikipedia</td>
+                                <td>10 May 2022</td>
+                                <td>Ministry</td>
+                                <td>$5300</td>
+                                <td>
+                                    <img src="IMGS/content/table/team-01.png" alt="">
+                                    <img src="IMGS/content/table/team-02.png" alt="">
+                                    <img src="IMGS/content/table/team-03.png" alt="">
+                                    <img src="IMGS/content/table/team-05.png" alt="">
+
+                                </td>
+                                <td>
+                                    <span class="label btn-shape bg-orange c-white">Pending</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Elzero Shop</td>
+                                <td>12 Oct 2021</td>
+                                <td>Elzero Company</td>
+                                <td>$1500</td>
+                                <td>
+                                    <img src="IMGS/content/table/team-01.png" alt="">
+                                    <img src="IMGS/content/table/team-05.png" alt="">
+                                </td>
+                                <td><span class="label btn-shape bg-blue c-white">In Progress</span></td>
+                            </tr>
+                            <tr>
+                                <td>Bouba App</td>
+                                <td>05 Sep 2021</td>
+                                <td>Bouba</td>
+                                <td>$800</td>
+                                <td>
+
+                                    <img src="IMGS/content/table/team-02.png" alt="">
+                                    <img src="IMGS/content/table/team-03.png" alt="">
+                                    <img src="IMGS/content/table/team-05.png" alt="">
+                                </td>
+                                <td><span class="label btn-shape bg-green c-white">Completed</span></td>
+                            </tr>
+                            <tr>
+                                <td>Mahmoud Website</td>
+                                <td>22 May 2021</td>
+                                <td>Mahmoud</td>
+                                <td>$600</td>
+                                <td>
+                                    <img src="IMGS/content/table/team-01.png" alt="">
+                                    <img src="IMGS/content/table/team-02.png" alt="">
+                                    <img src="IMGS/content/table/team-05.png" alt="">
+                                </td>
+                                <td><span class="label btn-shape bg-green c-white">Completed</span></td>
+                            </tr>
+                            <tr>
+                                <td>Sayed Website</td>
+                                <td>24 May 2021</td>
+                                <td>Sayed</td>
+                                <td>$300</td>
+                                <td>
+
+                                    <img src="IMGS/content/table/team-03.png" alt="">
+                                    <img src="IMGS/content/table/team-05.png" alt="">
+                                </td>
+                                <td><span class="label btn-shape bg-red c-white">Rejected</span></td>
+                            </tr>
+                            <tr>
+                                <td>Arena Application</td>
+                                <td>01 Mar 2021</td>
+                                <td>Arena Company</td>
+                                <td>$2600</td>
+                                <td>
+                                    <img src="IMGS/content/table/team-01.png" alt="">
+                                    <img src="IMGS/content/table/team-02.png" alt="">
+                                    <img src="IMGS/content/table/team-03.png" alt="">
+
+                                </td>
+                                <td><span class="label btn-shape bg-green c-white">Completed</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- end table -->
+        </div>
+    </div>
+</body>
+
+</html>
